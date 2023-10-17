@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.selectContainer input {
+    border-radius: 0.5rem;
+}
+
+
+
+.selectContainer [type='text']:focus {
+    box-shadow: none !important;
+}
+.listContainer {
+    max-height: 14rem !important;
+}
